@@ -1,7 +1,10 @@
 class Solution {
 public:
   string longestPalindrome(string s) {
-    /*loop through the string
+    /*  time complexity O(N^2)
+     *  extra space O(1)
+     *
+     *loop through the string
      *check if (1)()*s[i]()* or (2)()*s[i]s[i+1]()*, record length and compare
      *return longest length
      */
